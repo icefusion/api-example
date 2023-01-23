@@ -11,7 +11,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-// using DotEnv;
 
 namespace Ecommerce.Web
 {
@@ -51,14 +50,6 @@ namespace Ecommerce.Web
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            Console.WriteLine("PASSANDO AQUI");
-
-            string connectionString = Configuration.GetValue<string>("MONGO_CONNECTION_STRING");
-            
-            Console.WriteLine(connectionString);
-
-            Console.WriteLine("PASSOU AQUI");
-
             if (env.IsDevelopment()) {
                 app.UseSwagger();
                 app.UseSwaggerUI();

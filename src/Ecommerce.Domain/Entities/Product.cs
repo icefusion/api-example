@@ -1,21 +1,18 @@
-using System;
-using Ecommerce.Domain.DTOs;
+using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
 
-namespace Ecommerce.Domain.Entities
+namespace Ecommerce.Domain.Entities;
+
+public class Product
 {
-    public class Product : BaseEntity
-    {
-        public Product(ProductDTO product)
-        {
-            Id = product.Id;
-            Name = product.Name;
-            Sku = product.Sku;
-            Description = product.Description;
-        }
+    [BsonId]
+    [BsonRepresentation(BsonType.ObjectId)]
+    public string? Id { get; set; }
 
-        public int Id { get; private set; }
-        public string Name { get; private set; }
-        public string Sku{ get; private set; }
-        public string Description{ get; private set; }
-    }
+    [BsonElement("Name")]
+    public string Name { get; set; } = null!;
+
+    public decimal Sku { get; set; }
+
+    public string Description { get; set; } = null!;
 }

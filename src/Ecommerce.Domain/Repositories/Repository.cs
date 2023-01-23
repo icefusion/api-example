@@ -12,5 +12,11 @@ namespace Ecommerce.Domain.Repositories
             Console.WriteLine("PASSOU POR AQUI - REPOSITORY");
             return new List<TEntity>();
         }
+
+        // public virtual TEntity Store(TEntity product)
+        // {
+        //     // TEntity saved =
+        //     return new List<TEntity>();
+        // }
     }
 }
