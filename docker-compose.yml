@@ -1,0 +1,25 @@
+version: "3.7"
+services:
+  # app:
+  #   build: .
+  #   ports:
+  #     - "5000:80"
+
+  postgresql:
+    image: postgres:10-alpine
+    restart: always
+    container_name: dotnet_commerce_db
+    tty: true
+    volumes:
+      - .pgdata:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=postgres
+    ports:
+      - 5432:5432
+    networks:
+      - local_network
+
+networks:
+  local_network:
+    driver: bridge

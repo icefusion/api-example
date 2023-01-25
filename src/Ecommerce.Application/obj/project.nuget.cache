@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "97uQggygUHU2I3stOzlmJeyEwsKGb5Wyq8otIOi7HwJo9ISGtGBAY1HZ8ouYs0wm8Tw0s07SRhIk0zfyASnuHg==",
+  "dgSpecHash": "YQGfSyBRYye+VoC18kqRN49hWWSXFLdL+OrFivGMDt2dIMb12aduVg+LvsHSilHJSGDA9kzs8fL4D9SokWJfSw==",
   "success": true,
   "projectFilePath": "/home/icefusion/workspace/personal/dotnet/api-example/src/Ecommerce.Application/Ecommerce.Application.csproj",
   "expectedPackageFiles": [
@@ -18,8 +18,10 @@
     "/home/icefusion/.nuget/packages/microsoft.entityframeworkcore/7.0.2/microsoft.entityframeworkcore.7.0.2.nupkg.sha512",
     "/home/icefusion/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.2/microsoft.entityframeworkcore.abstractions.7.0.2.nupkg.sha512",
     "/home/icefusion/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.2/microsoft.entityframeworkcore.analyzers.7.0.2.nupkg.sha512",
+    "/home/icefusion/.nuget/packages/microsoft.entityframeworkcore.relational/7.0.1/microsoft.entityframeworkcore.relational.7.0.1.nupkg.sha512",
     "/home/icefusion/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "/home/icefusion/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "/home/icefusion/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "/home/icefusion/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "/home/icefusion/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "/home/icefusion/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
@@ -32,6 +34,8 @@
     "/home/icefusion/.nuget/packages/mongodb.driver/2.18.0/mongodb.driver.2.18.0.nupkg.sha512",
     "/home/icefusion/.nuget/packages/mongodb.driver.core/2.18.0/mongodb.driver.core.2.18.0.nupkg.sha512",
     "/home/icefusion/.nuget/packages/mongodb.libmongocrypt/1.6.0/mongodb.libmongocrypt.1.6.0.nupkg.sha512",
+    "/home/icefusion/.nuget/packages/npgsql/7.0.1/npgsql.7.0.1.nupkg.sha512",
+    "/home/icefusion/.nuget/packages/npgsql.entityframeworkcore.postgresql/7.0.1/npgsql.entityframeworkcore.postgresql.7.0.1.nupkg.sha512",
     "/home/icefusion/.nuget/packages/sharpcompress/0.30.1/sharpcompress.0.30.1.nupkg.sha512",
     "/home/icefusion/.nuget/packages/snappier/1.0.0/snappier.1.0.0.nupkg.sha512",
     "/home/icefusion/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",

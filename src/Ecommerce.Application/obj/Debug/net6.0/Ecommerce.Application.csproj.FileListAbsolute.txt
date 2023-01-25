@@ -13,3 +13,5 @@
 /home/icefusion/workspace/personal/dotnet/api-example/src/Ecommerce.Application/obj/Debug/net6.0/Ecommerce.Application.dll
 /home/icefusion/workspace/personal/dotnet/api-example/src/Ecommerce.Application/obj/Debug/net6.0/ref/Ecommerce.Application.dll
 /home/icefusion/workspace/personal/dotnet/api-example/src/Ecommerce.Application/obj/Debug/net6.0/Ecommerce.Application.pdb
+/home/icefusion/workspace/personal/dotnet/api-example/src/Ecommerce.Application/bin/Debug/net6.0/Ecommerce.Infra.dll
+/home/icefusion/workspace/personal/dotnet/api-example/src/Ecommerce.Application/bin/Debug/net6.0/Ecommerce.Infra.pdb

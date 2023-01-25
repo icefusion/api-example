@@ -10,3 +10,6 @@
 /home/icefusion/workspace/personal/dotnet/api-example/src/Ecommerce.Infra/obj/Debug/net6.0/Ecommerce.Infra.dll
 /home/icefusion/workspace/personal/dotnet/api-example/src/Ecommerce.Infra/obj/Debug/net6.0/ref/Ecommerce.Infra.dll
 /home/icefusion/workspace/personal/dotnet/api-example/src/Ecommerce.Infra/obj/Debug/net6.0/Ecommerce.Infra.pdb
+/home/icefusion/workspace/personal/dotnet/api-example/src/Ecommerce.Infra/bin/Debug/net6.0/Ecommerce.Domain.dll
+/home/icefusion/workspace/personal/dotnet/api-example/src/Ecommerce.Infra/bin/Debug/net6.0/Ecommerce.Domain.pdb
+/home/icefusion/workspace/personal/dotnet/api-example/src/Ecommerce.Infra/obj/Debug/net6.0/Ecommerce.Infra.csproj.CopyComplete
