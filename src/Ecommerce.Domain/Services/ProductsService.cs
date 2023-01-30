@@ -13,7 +13,7 @@ namespace Ecommerce.Domain.Services
             _productRepository = productRepository;
         }
 
-        public List<Product> List()
+        public IEnumerable<Product> List()
         {
             // Console.WriteLine("TESTE VAR");
             // string var1 = Environment.GetEnvironmentVariable("testeVar");

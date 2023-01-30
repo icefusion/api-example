@@ -1,20 +1,29 @@
 version: "3.7"
 services:
-  # app:
-  #   build: .
-  #   ports:
-  #     - "5000:80"
+  app:
+    build: .
+    ports:
+      - "7777:80"
+    environment:
+      - MONGO_CONNECTION_STRING=mongodb+srv://icefusion:1qa2ws3e@development.qcknamf.mongodb.net/ampere?retryWrites=true&w=majority
+      - POSTGRES_HOST=localhost
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_PORT=5432
 
   postgresql:
-    image: postgres:10-alpine
+    image: postgres:latest
     restart: always
-    container_name: dotnet_commerce_db
+    container_name: postgresql
     tty: true
     volumes:
-      - .pgdata:/var/lib/postgresql/data
+    - pg-data:/pg-data
+
     environment:
       - POSTGRES_PASSWORD=root
       - POSTGRES_DB=postgres
+      - PGDATA=/pg-data
     ports:
       - 5432:5432
     networks:
@@ -23,3 +32,6 @@ services:
 networks:
   local_network:
     driver: bridge
+
+volumes:
+  pg-data:
